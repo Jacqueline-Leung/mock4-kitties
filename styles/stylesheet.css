@@ -1,0 +1,41 @@
+/* .....Colors
+rgb(51, 153, 255) - skyblue
+rgb(102, 204, 255) - lightblue
+rgb(235, 235, 224) - lightgray
+#3C3C3C - very dark grey
+#262626 - greyish black
+#FFFFFF - white
+
+........*/
+
+
+/* .....Global Style........*/
+h1, h2{
+  color: #FFFFFF;
+}
+p{
+  color: #737373
+}
+.lightblue{
+  color: rgb(102, 204, 255)
+}
+
+/* .....Banner........*/
+header{
+  background-color: rgb(51, 153, 255)
+}
+/* .....Navigation Bar........*/
+nav{
+  background-color: rgb(235, 235, 224)
+}
+nav a{
+  color: #262626
+}
+/* .....Introduction paragraph........*/
+/* .....Quote........*/
+/* .....Details paragraph........*/
+/* .....Sidebar.......*/
+/* .....Footer........*/
+footer{
+  background-color: #3C3C3C;
+}
