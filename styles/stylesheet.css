@@ -1,6 +1,6 @@
 /* .....Colors
 rgb(51, 153, 255) - skyblue
-rgb(102, 204, 255) - lightblue
+#00ace6 - lightblue
 rgb(235, 235, 224) - lightgray
 #3C3C3C - very dark grey
 #262626 - greyish black
@@ -10,21 +10,42 @@ rgb(235, 235, 224) - lightgray
 
 
 /* .....Global Style........*/
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
 h1, h2{
   color: #FFFFFF;
+}
+h2{
+  font-style: italic;
+}
+h3{
+  color: #3C3C3C;
+}
+h4{
+  color: rgb(51, 153, 255);
 }
 p{
   color: #737373
 }
+a{
+  text-decoration: none;
+}
 .lightblue{
-  color: rgb(102, 204, 255)
+  color: #00ace6;
 }
 
 /* .....Banner........*/
 header{
-  background-color: rgb(51, 153, 255)
+  background-color: #0086b3;
 }
-/* .....Navigation Bar........*/
+/* .....Navigation Bar.......*/
 nav{
   background-color: rgb(235, 235, 224)
 }
@@ -33,9 +54,18 @@ nav a{
 }
 /* .....Introduction paragraph........*/
 /* .....Quote........*/
+blockquote{
+  display: inline;
+}
 /* .....Details paragraph........*/
 /* .....Sidebar.......*/
 /* .....Footer........*/
 footer{
   background-color: #3C3C3C;
+}
+footer nav{
+  background-color: #3C3C3C;
+}
+.content-wrap{
+  color: #FFFFFF;
 }
