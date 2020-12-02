@@ -18,6 +18,10 @@ html{
 }
 body{
   font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
 h1, h2{
   color: #FFFFFF;
@@ -40,6 +44,10 @@ a{
 .lightblue{
   color: #00ace6;
 }
+.main-content{
+  float: left;
+  background-color: pink;
+}
 
 /* .....Banner........*/
 header{
@@ -59,6 +67,7 @@ blockquote{
 }
 /* .....Details paragraph........*/
 /* .....Sidebar.......*/
+
 /* .....Footer........*/
 footer{
   background-color: #3C3C3C;
@@ -68,4 +77,21 @@ footer nav{
 }
 .content-wrap{
   color: #FFFFFF;
+  width: 500px;
+  margin: 30px auto;
+  padding: 70px 0;
+  text-align: center;
+  font-size: 9;
+}
+.content-wrap img{
+  width: 350px;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.divider{
+  padding: 0 5px;
+}
+.content-wrap p, .content-wrap a{
+  color: #FFFFFF;
+  padding: 15px 0;
 }
