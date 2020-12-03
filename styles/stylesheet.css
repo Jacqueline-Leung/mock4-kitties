@@ -155,3 +155,22 @@ footer nav{
   display: inline-block;
   padding-left: 0;
 }
+ /* .....About........*/
+ .kitty-eye{
+   width: inherit;
+   float: none;
+   padding-bottom: 20px;
+
+ }
+ .kitty-eye figcaption{
+   line-height: 2;
+   margin-bottom: 15px;
+   margin-left: 60px;
+ }
+ .kitty-eye figure{
+   position: relative;
+   display: inline;
+ }
+ .kitty-eye img{
+   width: 1250px;
+}
