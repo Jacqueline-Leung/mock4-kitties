@@ -18,7 +18,7 @@ html{
 }
 body{
   background-color: #3C3C3C;
-  font-family: sans-serif;
+  font-family: Helvetica, 'Segoe UI', Tahoma, sans-serif;
   font-size: 14px;
   line-height: 1.5;
 }
@@ -27,34 +27,41 @@ h1, h2{
 }
 h1{
   font-size: 50px;
+  font-style: arial;
   padding-left: 200px;
 }
 h2{
   font-style: italic;
-  font-size: 25px;
+  font-style: Helvetica;
+  font-weight: normal;
+  font-size: 30px;
   padding-left: 200px;
+  line-height: 1.2;
 }
 h3{
   color: #3C3C3C;
   font-size: 20px;
   font-weight: bold;
+  font-style: Trebuchet MS;
 }
 h4{
   color: rgb(51, 153, 255);
   font-size: 19px;
   font-weight: bold;
-}
+  font-style: Trebuchet MS;}
 p{
-  color: #737373
+  color: #3C3C3C;
+  font-style: Trebuchet MS;
 }
 a{
   text-decoration: none;
+  font-style: Trebuchet MS;
 }
 .lightblue{
   color: #00ace6;
 }
 .main-content{
-  background-color: pink;
+  background-color: white;
   padding-top: 25px;
   padding-bottom: 100px;
   padding-left: 200px;
@@ -76,6 +83,7 @@ nav{
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 16px;
+  font-style: Trebuchet MS;
 }
 nav a{
   color: #262626;
@@ -92,10 +100,13 @@ blockquote{
 aside{
   background-color: white;
   padding-top: 25px;
-  padding-bottom: 140px;
+  padding-bottom: 126px;
   padding-right: 200px;
   width: 35%;
   float: left;
+}
+figcaption{
+  line-height: 2;
 }
 .sidebar figure{
   position: relative;
@@ -105,7 +116,7 @@ aside{
 .sidebar img{
   width: 260px;
 }
-/* .....Footer........*/
+ /* .....Footer........*/
 footer{
   background-color: #3C3C3C;
   clear: both;
