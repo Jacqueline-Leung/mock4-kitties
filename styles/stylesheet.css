@@ -24,14 +24,23 @@ body{
 h1, h2{
   color: #FFFFFF;
 }
+h1{
+  font-size: 50px;
+  padding-left: 200px;
+}
 h2{
   font-style: italic;
+  font-size: 25px;
+  padding-left: 200px;
 }
 h3{
   color: #3C3C3C;
+  font-size: 20px;
+  font-weight: bold;
 }
 h4{
   color: rgb(51, 153, 255);
+  font-size: 18px;
 }
 p{
   color: #737373
@@ -44,28 +53,40 @@ a{
 }
 .main-content{
   background-color: pink;
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
 
 /* .....Banner........*/
 header{
   background-color: #0086b3;
-  padding-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /* .....Navigation Bar.......*/
 nav{
-  background-color: rgb(235, 235, 224)
+  background-color: rgb(235, 235, 224);
+  padding-left: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
 }
 nav a{
-  color: #262626
+  color: #262626;
+  font-weight: bold;
 }
 /* .....Introduction paragraph........*/
 /* .....Quote........*/
 blockquote{
   display: inline;
+  font-size: 20px;
 }
 /* .....Details paragraph........*/
 /* .....Sidebar.......*/
-
+aside{
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
 /* .....Footer........*/
 footer{
   background-color: #3C3C3C;
@@ -89,7 +110,15 @@ footer nav{
 .divider{
   padding: 0 5px;
 }
-.content-wrap p, .content-wrap a{
+.content-wrap p{
   color: #FFFFFF;
-  padding: 20px 0;
+  font-size: 14px;
+}
+.content-wrap a{
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.content-wrap nav{
+  display: inline-block;
+  padding-left: 0;
 }
