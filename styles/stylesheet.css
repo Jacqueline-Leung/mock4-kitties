@@ -7,7 +7,7 @@ rgb(235, 235, 224) - lightgray
 #FFFFFF - white
 
 ........*/
-
+/*....NEED TO CHECK FONT STYLE BEFORE HAND IN WORK...*/
 
 /* .....Global Style........*/
 html{
@@ -27,7 +27,7 @@ h1, h2{
 }
 h1{
   font-size: 55px;
-  font-style: arial;
+  font-: arial;
   padding-left: 200px;
   margin-bottom: 0;
 }
@@ -53,11 +53,11 @@ h4{
   font-style: Trebuchet MS;}
 p{
   color: #3C3C3C;
-  font-style: Trebuchet MS;
+  font-style: Tahoma;
 }
 a{
   text-decoration: none;
-  font-style: Trebuchet MS;
+  font-style: Tahoma;
 }
 .lightblue{
   color: #00ace6;
@@ -160,7 +160,6 @@ footer nav{
    width: inherit;
    float: none;
    padding-bottom: 20px;
-
  }
  .kitty-eye figcaption{
    line-height: 2;
