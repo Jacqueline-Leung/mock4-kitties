@@ -158,15 +158,13 @@ footer nav{
    padding-top: 30px;
    padding-bottom: 30px;
  }
- .kitty-eye h5{
-   display: block;
-   color: hsl(196, 44%, 51%);
-   font-size: 16px;
-   font-weight: bold;
-   font-family: Tahoma,sans-serif;
+ .kitty-eye h4{
    margin-top: 10px;
    margin-bottom: 0;
-   margin-left: 60px;
+   margin-left: 200px;
+ }
+ .kitty-eye p{
+   margin-left: 200px;
  }
  .kitty-eye figcaption{
    font-family: Tahoma, sans-serif;
