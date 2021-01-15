@@ -61,6 +61,14 @@ a{
   height: 800px;
   float: left;
 }
+.hidden{
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+.hidden:focus{
+  left: 0;
+}
 
 /* .....Banner........*/
 header{
